@@ -1,0 +1,120 @@
+*,*::after,*::before{
+    
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+.header-container{
+    width: 550px;
+    height: 200px;
+    background-image: url("img/back.png");
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+}
+.h-heading{
+    font-size: 2.5rem;
+}
+.h-watchlist{
+    font-size: 0.9rem;
+}
+
+.search-container{
+    
+    width: 460px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #2E2E2F;
+    padding-left: 15px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin-top: -1em;
+}
+section input{
+    color: #A5A5A5;
+    background-color: inherit;
+    padding: 0.57em;
+    width: auto;
+    border: none;
+}
+section button{
+    padding: 9px 34px 9px 39px;
+    background-color: #4B4B4B;
+    color: inherit;
+    border: none;
+    border-radius: 0px 6px 6px 0px;
+    align-self: stretch;
+}
+section button:hover{
+    border: 2px solid #A5A5A5;
+}
+.body-title{
+    color: #2E2E2F;
+    font-size: 1.125rem;
+}
+.movie-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    
+}
+.placeholder-div{
+    
+}
+.movie-div{
+    padding: 2.75em;
+    padding-top: 1.25em;
+}
+.movie{
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25em;
+    align-items: center;
+    border-bottom: 1.5px solid #2C2C2C;
+    padding-bottom: 1.25em;
+    padding-top: 1.5em; 
+    margin: 0 auto;
+}
+.movie-title
+{
+    font-size: 1.125rem;
+    
+}
+.movie-info,.movie-syn{
+    font-size: 0.75rem;
+}
+.watchlist-btn:hover{
+    width: 25px;
+    border: 2px solid #A5A5A5;
+    border-radius: 50%;
+    /* margin-left: 1.25em; */
+}
+.w-btn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.poster{
+    width: 99px;
+}
+.link{
+    color: inherit;
+    text-decoration: none;
+}
+.link:hover,.link:active{
+    color: #e63946;
+}
