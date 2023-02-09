@@ -118,3 +118,6 @@ section button:hover{
 .link:hover,.link:active{
     color: #e63946;
 }
+.border{
+    border-bottom:1.5px solid #E5E7EB;;
+}

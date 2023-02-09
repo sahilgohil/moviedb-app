@@ -16,7 +16,7 @@ function renderWatchList(){
     watchlist.forEach((movie)=>{
          const {Title,Year,imdbID,Poster} = movie
                 htmlString += `
-                <section class="movie">
+                <section class="movie border">
                         <img src="${Poster}" class='poster'>
                         <div>
                             <h2 class="movie-title">${Title}</h2>

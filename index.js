@@ -1,10 +1,5 @@
-// base url = http://www.omdbapi.com/?i=tt3896198&apikey=91035278
 
-
-// fetch('https://www.omdbapi.com/?apikey=91035278&s=avenger', {method: 'GET'})
-// 	.then(response => response.json())
-// 	.then(response => console.log(response))
-// 	.catch(err => console.error(err));
+ 
 const searchBtn = document.getElementById('search-btn')
 const input = document.getElementById('movie')
 let fullUrl =''
